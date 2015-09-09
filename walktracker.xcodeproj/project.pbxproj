@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C1851745791FF613B282041 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 157EA1DA96A820A632B9B2DD /* CoreTelephony.framework */; };
 		923489B81A600007002C0B33 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 923489B71A600007002C0B33 /* MapKit.framework */; };
 		923489BB1A606EB3002C0B33 /* walktracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 923489B91A606EB3002C0B33 /* walktracker.xcdatamodeld */; };
 		9264BE4D1A60759F0039824A /* Walk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9264BE4C1A60759F0039824A /* Walk.swift */; };
@@ -19,6 +20,10 @@
 		92C338BB1A5FF18200DA1532 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92C338B91A5FF18200DA1532 /* LaunchScreen.xib */; };
 		92C338C71A5FF18200DA1532 /* walktrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C338C61A5FF18200DA1532 /* walktrackerTests.swift */; };
 		92EE08391A72891E00D3313B /* WalksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92EE08381A72891E00D3313B /* WalksViewController.swift */; };
+		9DFE11F5BA1E880E7F07C91B /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B91637CAE63FD4CD385250B /* CoreText.framework */; };
+		A3E7C59889789D65E14695AD /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A2695A43CAADAD67BC1EFE /* SystemConfiguration.framework */; };
+		EBD9395AAFF3718BB55D695F /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20F09FAFBF0FE0A8AC3A130D /* BuddyBuildSDK.framework */; };
+		F660217F8E5410C1587647B1 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5FA9F493C364126C90A8F696 /* AssetsLibrary.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		157EA1DA96A820A632B9B2DD /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		20F09FAFBF0FE0A8AC3A130D /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		4B91637CAE63FD4CD385250B /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		5FA9F493C364126C90A8F696 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		923489B71A600007002C0B33 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		923489BA1A606EB3002C0B33 /* walktracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = walktracker.xcdatamodel; sourceTree = "<group>"; };
 		9264BE4C1A60759F0039824A /* Walk.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Walk.swift; sourceTree = "<group>"; };
@@ -48,6 +57,8 @@
 		92C338C51A5FF18200DA1532 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C338C61A5FF18200DA1532 /* walktrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = walktrackerTests.swift; sourceTree = "<group>"; };
 		92EE08381A72891E00D3313B /* WalksViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WalksViewController.swift; sourceTree = "<group>"; };
+		B7A2695A43CAADAD67BC1EFE /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FFF98BB4C9999D6B6141BDCF /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +67,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				923489B81A600007002C0B33 /* MapKit.framework in Frameworks */,
+				EBD9395AAFF3718BB55D695F /* BuddyBuildSDK.framework in Frameworks */,
+				F660217F8E5410C1587647B1 /* AssetsLibrary.framework in Frameworks */,
+				9DFE11F5BA1E880E7F07C91B /* CoreText.framework in Frameworks */,
+				2C1851745791FF613B282041 /* CoreTelephony.framework in Frameworks */,
+				A3E7C59889789D65E14695AD /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +92,8 @@
 				92C338AB1A5FF18200DA1532 /* walktracker */,
 				92C338C31A5FF18200DA1532 /* walktrackerTests */,
 				92C338AA1A5FF18200DA1532 /* Products */,
+				B4ED098AE911FEDD919A5738 /* Frameworks */,
+				FFF98BB4C9999D6B6141BDCF /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -129,6 +147,18 @@
 				92C338C51A5FF18200DA1532 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4ED098AE911FEDD919A5738 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				20F09FAFBF0FE0A8AC3A130D /* BuddyBuildSDK.framework */,
+				5FA9F493C364126C90A8F696 /* AssetsLibrary.framework */,
+				4B91637CAE63FD4CD385250B /* CoreText.framework */,
+				157EA1DA96A820A632B9B2DD /* CoreTelephony.framework */,
+				B7A2695A43CAADAD67BC1EFE /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -368,10 +398,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = walktracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -380,10 +415,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = walktracker/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
